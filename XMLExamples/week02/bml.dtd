@@ -1,0 +1,14 @@
+<!ELEMENT booklist (book*)>
+<!ELEMENT book (title, author+, publisher, price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (name, tel, address)> <!-- 모든 엘리먼트가 한 번씩만 정의되어야 한다. author에 자식에 title을 적으면 오류남 -->
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT tel (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+
+<!-- 속성 선언 -->
+<!ATTLIST book id ID #REQUIRED
+				kind (컴퓨터|소설|언어) #IMPLIED>
+<!ATTLIST name sex (man|woman) #REQUIRED>

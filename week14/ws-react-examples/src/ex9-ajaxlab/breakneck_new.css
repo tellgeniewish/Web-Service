@@ -1,0 +1,33 @@
+#pizza {
+  border: double darkred;
+  padding: 1em;
+}
+
+#pizza div {
+  margin: 10px;
+}
+
+#pizza input {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+#pizza textarea {
+  margin-top: 20px;
+  display: block;
+}
+
+.customer-info {
+  font-weight: bold;
+}
+
+.customer-data {
+  color: black;
+}
+
+.tagline {
+  text-align: center;
+  color: black;
+  font-size: .8em;
+  font-style: italic;
+}

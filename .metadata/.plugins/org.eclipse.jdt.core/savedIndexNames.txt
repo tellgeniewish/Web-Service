@@ -1,0 +1,14 @@
+INDEX VERSION 1.131+C:\Users\user\Desktop\J\DDWU\24-1\Web Service\.metadata\.plugins\org.eclipse.jdt.core
+1808819407.index
+623334914.index
+2902059358.index
+2159776681.index
+4174869897.index
+1573108467.index
+1866043448.index
+3488393053.index
+1865797976.index
+2544073728.index
+1992841768.index
+515232884.index
+901618419.index

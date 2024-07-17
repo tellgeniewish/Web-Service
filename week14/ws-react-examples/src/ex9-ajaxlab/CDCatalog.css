@@ -1,0 +1,21 @@
+.catalog {
+  margin: 20px;
+  margin-bottom: 50px;
+} 
+
+.catalog table {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.catalog td, th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.catalog button {
+  margin-top: 20px;
+  margin-left: 5px;
+}

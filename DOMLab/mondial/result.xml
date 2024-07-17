@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mondial>
+  <country>
+    <name>Albania</name>
+    <code>AL</code>
+    <population>3249136</population>
+    <city country="AL" id="cty-cid-cia-Albania-Tirane" is_country_cap="yes">
+      <name>Tirane</name>
+      <longitude>19.8</longitude>
+      <latitude>41.3</latitude>
+      <population year="87">192000</population>
+    </city>
+    <city country="AL" id="stadt-Shkoder-AL-AL">
+      <name>Shkoder</name>
+      <longitude>19.2</longitude>
+      <latitude>42.2</latitude>
+      <population year="87">62000</population>
+      <located_at lake="lake-Skutarisee" watertype="lake"/>
+    </city>
+    <city country="AL" id="stadt-Durres-AL-AL">
+      <name>Durres</name>
+      <longitude>19.3</longitude>
+      <latitude>41.3</latitude>
+      <population year="87">60000</population>
+      <located_at sea="sea-Mittelmeer" watertype="sea"/>
+    </city>
+    <city country="AL" id="stadt-Vlore-AL-AL">
+      <name>Vlore</name>
+      <longitude>19.3</longitude>
+      <latitude>40.3</latitude>
+      <population year="87">56000</population>
+      <located_at sea="sea-Mittelmeer" watertype="sea"/>
+    </city>
+    <city country="AL" id="stadt-Elbasan-AL-AL">
+      <name>Elbasan</name>
+      <longitude>20.1</longitude>
+      <latitude>41.1</latitude>
+      <population year="87">53000</population>
+    </city>
+    <city country="AL" id="stadt-Korce-AL-AL">
+      <name>Korce</name>
+      <longitude>20.5</longitude>
+      <latitude>40.4</latitude>
+      <population year="87">52000</population>
+    </city>
+  </country>
+  <country>
+    <name>Turkey</name>
+    <code>TR</code>
+    <population>62484478</population>
+  </country>
+  <country>
+    <name>France</name>
+    <code>F</code>
+    <population>58317450</population>
+  </country>
+  <country>
+    <name>South Korea</name>
+    <code>ROK</code>
+    <population>45482291</population>
+    <city country="ROK" id="cty-cid-cia-South-Korea-2" is_country_cap="yes">
+      <name>Seoul</name>
+      <longitude>126.967</longitude>
+      <latitude>37.5667</latitude>
+      <population year="95">10229262</population>
+    </city>
+    <city country="ROK" id="cty-cid-cia-South-Korea-3">
+      <name>Pusan</name>
+      <population year="95">3813814</population>
+      <located_at sea="sea-Japanisches_Meer" watertype="sea"/>
+    </city>
+    <city country="ROK" id="cty-cid-cia-South-Korea-4">
+      <name>Taegu</name>
+      <population year="95">2449139</population>
+    </city>
+    <city country="ROK" id="cty-cid-cia-South-Korea-5">
+      <name>Inchon</name>
+      <population year="95">2307618</population>
+      <located_at sea="sea-Gelbes_Meer" watertype="sea"/>
+    </city>
+    <city country="ROK" id="cty-cid-cia-South-Korea-6">
+      <name>Kwangju</name>
+      <population year="95">1257504</population>
+    </city>
+    <city country="ROK" id="cty-cid-cia-South-Korea-7">
+      <name>Taejon</name>
+      <population year="95">1272143</population>
+    </city>
+    <city country="ROK" id="cty-cid-cia-South-Korea-8">
+      <name>Ulsan</name>
+      <population year="95">967394</population>
+      <located_at sea="sea-Japanisches_Meer" watertype="sea"/>
+    </city>
+    <city country="ROK" id="cty-cid-cia-South-Korea-9">
+      <name>Suwon</name>
+      <population year="95">755502</population>
+    </city>
+    <city country="ROK" id="cty-cid-cia-South-Korea-10">
+      <name>Songnam</name>
+      <population year="95">869243</population>
+    </city>
+    <city country="ROK" id="cty-cid-cia-South-Korea-11">
+      <name>Chonju</name>
+      <population year="95">563406</population>
+    </city>
+    <city country="ROK" id="cty-cid-cia-South-Korea-12">
+      <name>Masan</name>
+      <population year="95">441358</population>
+    </city>
+    <city country="ROK" id="cty-cid-cia-South-Korea-13">
+      <name>Chongju</name>
+      <population year="95">531195</population>
+    </city>
+    <city country="ROK" id="cty-cid-cia-South-Korea-14">
+      <name>Chinju</name>
+      <population year="95">329913</population>
+    </city>
+    <city country="ROK" id="cty-cid-cia-South-Korea-15">
+      <name>Mokpo</name>
+      <population year="95">247524</population>
+      <located_at sea="sea-Gelbes_Meer" watertype="sea"/>
+    </city>
+    <city country="ROK" id="cty-cid-cia-South-Korea-16">
+      <name>Cheju</name>
+      <population year="95">258509</population>
+    </city>
+    <city country="ROK" id="cty-cid-cia-South-Korea-17">
+      <name>Kunsan</name>
+      <population year="95">266517</population>
+      <located_at sea="sea-Gelbes_Meer" watertype="sea"/>
+    </city>
+    <city country="ROK" id="cty-cid-cia-South-Korea-18">
+      <name>Chunchon</name>
+      <population year="95">235067</population>
+    </city>
+    <city country="ROK" id="cty-cid-cia-South-Korea-19">
+      <name>Yosu</name>
+      <population year="95">183557</population>
+      <located_at sea="sea-EastChinaSea" watertype="sea"/>
+    </city>
+  </country>
+  <country>
+    <name>Japan</name>
+    <code>J</code>
+    <population>125449703</population>
+  </country>
+  <country>
+    <name>Australia</name>
+    <code>AUS</code>
+    <population>18260863</population>
+  </country>
+  <country>
+    <name>Peru</name>
+    <code>PE</code>
+    <population>24523408</population>
+  </country>
+  <country>
+    <name>Ethiopia</name>
+    <code>ETH</code>
+    <population>57171662</population>
+    <city country="ETH" id="cty-Ethiopia-Addis-Ababa" is_country_cap="yes">
+      <name>Addis Ababa</name>
+      <longitude>38.75</longitude>
+      <latitude>9</latitude>
+      <population year="94">2316400</population>
+    </city>
+    <city country="ETH" id="cty-cid-cia-Ethiopia-3">
+      <name>Dire Dawa</name>
+      <population year="94">194587</population>
+    </city>
+    <city country="ETH" id="cty-cid-cia-Ethiopia-4">
+      <name>Gonder</name>
+      <population year="94">166593</population>
+    </city>
+    <city country="ETH" id="cty-cid-cia-Ethiopia-5">
+      <name>Nazret</name>
+      <population year="94">147088</population>
+    </city>
+    <city country="ETH" id="cty-cid-cia-Ethiopia-6">
+      <name>Harer</name>
+      <population year="94">122932</population>
+    </city>
+    <city country="ETH" id="cty-cid-cia-Ethiopia-7">
+      <name>Mekele</name>
+      <population year="94">119779</population>
+    </city>
+    <city country="ETH" id="cty-cid-cia-Ethiopia-8">
+      <name>Jima</name>
+      <population year="94">119717</population>
+    </city>
+    <city country="ETH" id="cty-cid-cia-Ethiopia-9">
+      <name>Dese</name>
+      <population year="94">117268</population>
+    </city>
+    <city country="ETH" id="cty-cid-cia-Ethiopia-10">
+      <name>Bahir Dar</name>
+      <population year="94">115531</population>
+    </city>
+    <city country="ETH" id="cty-cid-cia-Ethiopia-11">
+      <name>Debrezit</name>
+      <population year="94">105963</population>
+    </city>
+  </country>
+  <continent id="asia">
+    <name>Asia</name>
+    <area>45095292</area>
+  </continent>
+  <continent id="australia">
+    <name>Australia/Oceania</name>
+    <area>8503474</area>
+  </continent>
+  <continent id="africa">
+    <name>Africa</name>
+    <area>30254708</area>
+  </continent>
+  <continent id="america">
+    <name>America</name>
+    <area>39872000</area>
+  </continent>
+  <organization headq="cty-Belgium-Brussels" id="org-ACP">
+    <name>African, Caribbean, and Pacific Countries</name>
+    <abbrev>ACP</abbrev>
+    <established>1976-04-01</established>
+    <members country="PNG AG BS BDS BZ WD DOM RH WG JA KN WL WV TT FJI KIR SLB TO TUV VU WS GUY SME RMM RIM RN ANG RCB NAM ZRE Z BEN BF WAN RT RB ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY TL COOK NIUE" type="member"/>
+  </organization>
+  <organization headq="cty-Abidjan" id="org-AfDB">
+    <name>African Development Bank</name>
+    <abbrev>AfDB</abbrev>
+    <established>1963-08-04</established>
+    <members country="ET DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY" type="regional member"/>
+    <members country="F E A D I CH B NL DK SF N S P GB TJ IND KWT SA J ROK UAE CDN USA RA BR" type="nonregional member"/>
+  </organization>
+  <organization headq="cty-France-Paris" id="org-ACCT">
+    <name>Agency for Cultural and Technical Cooperation</name>
+    <abbrev>ACCT</abbrev>
+    <established>1970-03-21</established>
+    <members country="F B L BG RO MC LAO K VN RL CDN WD RH VU RMM RN TN RCB ZRE BEN BF RT CI BI RWA CAM RCA TCH GQ G COM RG DJI SN RM MS SY" type="member"/>
+    <members country="ET WL RIM MA GNB" type="associate member"/>
+  </organization>
+  <mountain country="BOL" id="mount-Sajama" type="volcano">
+    <name>Sajama</name>
+    <mountains>Andes</mountains>
+    <height>6542</height>
+    <longitude>-68.9</longitude>
+    <latitude>-18.1</latitude>
+  </mountain>
+  <mountain country="BOL RCH" id="mount-Licancabur" type="volcano">
+    <name>Licancabur</name>
+    <mountains>Andes</mountains>
+    <height>5920</height>
+    <longitude>-67.9</longitude>
+    <latitude>-22.8</latitude>
+  </mountain>
+  <mountain country="RA RCH" id="mount-Llullaillaco" type="volcano">
+    <name>Llullaillaco</name>
+    <mountains>Andes</mountains>
+    <located country="RA" province="prov-cid-cia-Argentina-24"/>
+    <height>6739</height>
+    <longitude>-68.5</longitude>
+    <latitude>-24.7</latitude>
+  </mountain>
+  <mountain country="RA RCH" id="mount-OjosdelSalado" type="volcano">
+    <name>Ojos del Salado</name>
+    <mountains>Andes</mountains>
+    <located country="RA" province="prov-cid-cia-Argentina-24"/>
+    <height>6893</height>
+    <longitude>-68.5</longitude>
+    <latitude>-27.1</latitude>
+  </mountain>
+  <mountain country="RA" id="mount-MontePissis" type="volcanic">
+    <name>Monte Pissis</name>
+    <mountains>Andes</mountains>
+    <located country="RA" province="prov-cid-cia-Argentina-12 prov-cid-cia-Argentina-24"/>
+    <height>6795</height>
+    <longitude>-68.85</longitude>
+    <latitude>-27.8</latitude>
+  </mountain>
+  <mountain country="RA" id="mount-Aconcagua">
+    <name>Aconcagua</name>
+    <mountains>Andes</mountains>
+    <located country="RA" province="prov-cid-cia-Argentina-13"/>
+    <height>6962</height>
+    <longitude>-70.0</longitude>
+    <latitude>-32.65</latitude>
+  </mountain>
+  <mountain country="RA" id="mount-Tupungato" type="volcano">
+    <name>Tupungato</name>
+    <mountains>Andes</mountains>
+    <located country="RA" province="prov-cid-cia-Argentina-13"/>
+    <height>6550</height>
+    <longitude>-69.870</longitude>
+    <latitude>-33.35</latitude>
+  </mountain>
+  <mountain country="BR" id="mount-AgulhasNegras">
+    <name>Pico de Agulhas Negras</name>
+    <mountains>Brazilian Highlands</mountains>
+    <located country="BR" province="prov-cid-cia-Brazil-13 prov-cid-cia-Brazil-19"/>
+    <height>2791</height>
+    <longitude>-44.65</longitude>
+    <latitude>-22.4</latitude>
+  </mountain>
+  <desert country="NAM RB RSA ANG Z" id="desert-Kalahari">
+    <name>Kalahari</name>
+    <located country="ANG" province="prov-cid-cia-Angola-15 prov-cid-cia-Angola-14"/>
+    <located country="Z" province="prov-cid-cia-Zambia-9 prov-cid-cia-Zambia-10"/>
+    <located country="RSA" province="prov-cid-cia-South-Africa-9"/>
+    <area>1200000</area>
+    <longitude>21</longitude>
+    <latitude>-22</latitude>
+  </desert>
+  <desert country="NAM" id="desert-Namib" type="sand">
+    <name>Namib</name>
+    <area>95000</area>
+    <longitude>15</longitude>
+    <latitude>-25</latitude>
+  </desert>
+  <desert country="SN" id="desert-Ferlo">
+    <name>Ferlo</name>
+    <located country="SN" province="prov-cid-cia-Senegal-9 prov-cid-cia-Senegal-8 prov-cid-cia-Senegal-7"/>
+    <area>70000</area>
+    <longitude>-14</longitude>
+    <latitude>15</latitude>
+  </desert>
+  <desert country="RIM" id="desert-Trarza">
+    <name>Trarza</name>
+    <area>50000</area>
+    <longitude>-15</longitude>
+    <latitude>18</latitude>
+  </desert>
+  <desert country="RIM" id="desert-Ouarane">
+    <name>Erg Ouarane</name>
+    <area>80000</area>
+    <longitude>-11</longitude>
+    <latitude>21</latitude>
+  </desert>
+  <desert country="RIM" id="desert-Maqteir">
+    <name>Erg Maqteir</name>
+    <area>40000</area>
+    <longitude>-11</longitude>
+    <latitude>22</latitude>
+  </desert>
+  <desert country="WSA" id="desert-Saguia_el-Hamra">
+    <name>Saguia el-Hamra</name>
+    <area>25000</area>
+    <longitude>-10</longitude>
+    <latitude>27</latitude>
+  </desert>
+</mondial>

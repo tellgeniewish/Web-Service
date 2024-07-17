@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE booklist SYSTEM "bml.dtd" >
+<booklist>
+  <book id="idvalue0" kind="컴퓨터">
+    <title>title</title>
+    <author>
+      <name sex="man">name</name>
+      <tel>tel</tel>
+      <address>address</address>
+    </author>
+    <publisher>publisher</publisher>
+    <price>price</price>
+  </book>
+</booklist>

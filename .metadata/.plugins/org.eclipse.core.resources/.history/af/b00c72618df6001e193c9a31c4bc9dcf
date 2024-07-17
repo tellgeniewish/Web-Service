@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/BooML2.0"
+	xmlns:tns="http://www.example.org/BooML2.0"
+	elementFormDefault="qualified">
+	<!-- targetNamespace 버전 수정 ㄱㄴ -->
+
+	<simpleType name="DisountRateType">
+		<restriction base="integer">
+			<minInclusive value="0"></minInclusive>
+			<maxInclusive value="90"></maxInclusive>
+			<enumeration value="10"></enumeration>
+			<enumeration value="20"></enumeration>
+			<enumeration value="30"></enumeration>
+		</restriction>
+	</simpleType>
+	
+    <simpleType name="ISBNType">
+    	<restriction base="string">
+    		<pattern value="\d{9}-\d|(987|979)-\d{9}-\d"></pattern>
+    	</restriction>
+    </simpleType>
+
+    <complexType name="BookType">
+    	<sequence>
+    		<element name="title" type="string"></element>
+    		<choice>
+    			<element name="author" type="string"
+    				maxOccurs="unbounded" minOccurs="1">
+    			</element>
+    			<element name="writer" type="string"></element>
+    		</choice>
+    		<element ref="tns:catalog"></element>
+    	</sequence>
+    	<attribute name="isbn" type="tns:ISBNType"></attribute>
+    </complexType>
+
+    <element name="book" type="tns:BookType"></element>
+
+    <element name="catalog">
+    	<complexType>
+    		<sequence>
+    			<element name="booklist">
+    				<complexType>
+    					<sequence>
+    						<element name="book" type="tns:BookType"></element>
+    					</sequence>
+    				</complexType>
+    			</element>
+    			<element name="bookCategory" type="string"></element>
+    		</sequence>
+    	</complexType>
+    </element>
+
+
+    <complexType name="SalesPriceType">
+    	<simpleContent>
+    		<extension base="integer">
+    			<attribute name="disountRate" type="string"></attribute>
+    			<attribute name="NewAttribute1" type="string"></attribute>
+    		</extension>
+    	</simpleContent>
+    </complexType>
+
+
+    <element name="publishDate" type="string"></element>
+</schema>

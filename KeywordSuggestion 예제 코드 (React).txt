@@ -1,0 +1,69 @@
+ export default function KeywordSuggestion() {  
+
+   
+
+  const [suggestions, setSuggestions] = useState("");   // useState Hook 이용, state 변수 생성
+
+  const serverUrl = "/AjaxLab/keywordSuggestion/gethint.jsp?q=";      
+
+ 
+
+  return (
+
+    <div className="catalog">       
+
+    <h3>Start typing a name in the input field below:</h3>
+
+    <form>         
+
+        <input type="text" id="txt1" onKeyUp={
+
+          (e) => {
+
+            if (e.target.value === "") 
+
+              setSuggestions("");         // 상태 값 변경 -> re-rendering 실행
+
+            else {
+
+              fetch(serverUrl + e.target.value)
+
+              .then(resp => resp.text())            
+
+              .then(result => {
+
+                console.log(result);
+
+                setSuggestions(result);       // 상태 값 변경 -> re-rendering 실행
+
+              })
+
+              .catch(err => console.error(err));
+
+            }
+
+          }
+
+        } />
+
+      </form>
+
+    <p>Suggestions: <span id="txtHint">{suggestions}</span></p>  {/* 상태 변수의 현재 값이 출력됨 */}
+
+    </div>
+
+  );
+
+ 
+
+주의사항: react에서는 event handler를 등록하는 속성 이름에 Camel Case 표기법을 사용해야 함
+
+ 
+
+예:
+
+onkeyup --> onKeyUp
+
+onclick --> onClick
+
+onsubmit --> onSubmit
